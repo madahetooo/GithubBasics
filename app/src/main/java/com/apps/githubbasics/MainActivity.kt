@@ -1,7 +1,7 @@
 package com.apps.githubbasics
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -10,5 +10,6 @@ class MainActivity : AppCompatActivity() {
         print("This is master commit") // Master Branch
         print("this is chatFeature commit") // ChatFeature Branch
         print("this is second chatFeature commit") // ChatFeature Branch
+        print("this is third chatFeature commit") // ChatFeature Branch
     }
 }
