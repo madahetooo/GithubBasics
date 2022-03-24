@@ -9,5 +9,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         print("This is master commit") // Master Branch
         print("this is chatFeature commit") // ChatFeature Branch
+        print("this is second chatFeature commit") // ChatFeature Branch
     }
 }
